@@ -34,7 +34,7 @@ body {
 button,
 .button-jogar {
   padding: 0.8rem 1.5rem;
-  margin: 1rem 0;
+  margin: 5px 0;
   border-radius: 5px;
   border: none;
   font-size: 1rem;
@@ -45,10 +45,12 @@ button,
 
 h2 {
   color: white;
+  font-size: 20px;
 }
 
 h4 {
   color: white;
+  font-size: 15px
 }
 
 #carta-jogador,
@@ -131,7 +133,7 @@ h4 {
 .resultado-final {
   color: black;
   font-style: bold;
-  font-size: 2rem;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: bolder;
   padding: 1rem;
