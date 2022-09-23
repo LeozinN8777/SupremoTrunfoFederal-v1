@@ -1,0 +1,174 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 854px;
+  background-image: url("https://media.discordapp.net/attachments/764118871640637491/1021488234947170324/palacio_background.png?width=1248&height=832");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  margin: 1px 20%;
+}
+
+.container img {
+  width: 70%;
+  height: 70%;
+}
+
+.carta-status {
+  text-align: left;
+  margin: 1px 20%;
+}
+
+.page-title {
+  color: #007dd4;;
+  margin: 5px 0;
+  font-size: 20px
+}
+
+button,
+.button-jogar {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: #007cd4;
+  font-style: bold;
+  border: 3px solid black;
+}
+
+h2 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+#carta-jogador,
+#carta-maquina {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: 50px;
+  border-radius: 33px;
+}
+
+.cartasD {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-size: 20px;
+}
+
+.playerCards {
+  border: 3px solid black;
+  background-color: #007cd48e;
+  border-radius: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.playerCards h4 {
+  Color: black;
+  font-size: 25px; 
+  font-style:oblique;
+}
+
+.playerCards h5 {
+  Color: black;
+  font-size: 18px; 
+  font-style: bold;
+}
+
+#carta-maquina p {
+  text-align: left;
+  margin: 15px 0px;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 2rem;
+  color: white;
+  z-index: 2;
+}
+
+.carta-status input {
+  margin: 10px 10px;
+}
+
+.resultado-final {
+  color: black;
+  font-style: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: #007dd4;
+}
+
+.--spacing {
+  margin-left: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.carta-subtitle {
+  z-index: 2;
+  position: absolute;
+  top: 16px;
+  left: 37px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#cartas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carta-status p {
+  margin-bottom: 2rem;
+}
