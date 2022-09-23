@@ -1,3 +1,4 @@
+alert("tested")
 var carta1 = {
   nome: "Bolsonaro",
   imagem: "https://pbs.twimg.com/media/EqbHa7NXUAIWSxd.jpg",
