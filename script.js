@@ -393,7 +393,7 @@ function playerCards() {
   let yourCards = ""
   var divPlayerCards = document.getElementById("playerCards");
   for (let i= 0; i < cartasJogador.length; i++) {
-    yourCards = yourCards + cartasJogador[i].nome + "<br>" ;
+    yourCards += cartasJogador[i].nome + "<br>" ;
   }
 
   divPlayerCards.innerHTML = title + `<h5> ${yourCards} </h5>`;
@@ -402,4 +402,4 @@ function playerCards() {
 
 iniciar();
 
-// adc regras, bug duplicadas, 
+// adc regras c/ animação
