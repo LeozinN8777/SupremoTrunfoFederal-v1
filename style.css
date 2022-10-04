@@ -12,7 +12,8 @@ body {
 .container {
   text-align: center;
   padding: 20px;
-  margin: 1px 10%;
+  margin: 1px 15%;
+  flex-wrap: wrap;
 }
 
 .container img {
@@ -58,7 +59,6 @@ h4 {
   width: 360px;
   height: 500px;
   overflow: auto;
-  border-radius: 10px;
   margin-bottom: 20px;
   margin: 0 auto;
   display: flex;
@@ -71,13 +71,6 @@ h4 {
   border-radius: 33px;
 }
 
-.cartasD {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 100px;
-  padding-left: 100px;
-  font-size: 20px;
-}
 
 .playerCards {
   border: 3px solid black;
@@ -85,6 +78,7 @@ h4 {
   border-radius: 30px;
   padding-left: 80px;
   padding-right: 80px;
+  margin-top: 63px
 }
 
 .playerCards h4 {
@@ -154,6 +148,7 @@ form {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .carta-subtitle {
