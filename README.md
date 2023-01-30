@@ -1,4 +1,4 @@
-# SupremoTrunfoFederal-v1
+# SupremoTrunfoFederal
 Joguinho começado na ImersaoDev da Alura, aprofundado, melhorado, aprimorado e deixando mais "competitivo".
 
 Regras:
@@ -7,5 +7,3 @@ Regras:
 - Após o duelo, o vencedor da rodada irá roubar a carta do seu oponente.
 - Na proxima rodada, novas 2 cartas serão escolhidas, considerando as cartas roubadas para o vencedor.
 - Vencedor será quem ficar com as 16 cartas do jogo.
-
--> leozin pau medio#8777
