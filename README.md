@@ -7,3 +7,6 @@ Regras:
 - Após o duelo, o vencedor da rodada irá roubar a carta do seu oponente.
 - Na proxima rodada, novas 2 cartas serão escolhidas, considerando as cartas roubadas para o vencedor.
 - Vencedor será quem ficar com as 16 cartas do jogo.
+
+## Deploy
+https://leozinn0667.github.io/SupremoTrunfoFederal-1roTurno/
